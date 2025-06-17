@@ -1,0 +1,114 @@
+body{
+    display: grid;
+    grid-template-areas:". div1 div1 div1 ."
+                        ". div2 div2 div2 ."
+                        ". div3 div3 div3 ."  ;
+    grid-row:150px 150px 150px;
+    grid-column:5% 30% 30% 30% 5% ;
+    
+ 
+}
+
+#winImg{
+    position: fixed;
+    width: 70%;
+    left: 14%;
+    top: 18%;
+    /* margin-left: 8%;
+    margin-top: 5%; */
+
+}
+/* p{
+    text-align: center;
+} */
+
+#video{
+   
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    /* top: 0; */
+    /* min-width: 100%;
+    min-height: 100%; */
+}
+.div {
+    position: absolute;
+    /* background-color: aqua; */
+    width: 180px;
+    height: 250px;
+    display: grid;
+    grid-template-areas:". . . . . "
+                        ". pname pname pname . "
+                        ". pscore pscore pscore ." 
+                        ". ptime ptime ptime ." 
+                        ;
+    grid-template-rows:15px 20px 80px 40px;
+    grid-template-columns:10% 15% 50% 15% 10%;
+    /* background-color: aliceblue; */
+    text-align: center;
+    color: rgb(87, 4, 4);
+    font-family:Verdana, Tahoma, sans-serif;   
+     font-weight: bold;   
+     /* color: white; צבע הטקסט */
+     /* text-shadow:
+       -0.2px -0.2px 0 #f1ecec,  
+        0.2px -0.2px 0  #f1ecec,
+       -0.2px  0.2px 0  #f1ecec,
+        0.2px  0.2px 0  #f1ecec;  */
+        text-shadow: 2px 2px 5px rgb(252, 251, 251);
+        /* text-shadow: 1px 1px 2px black, 0 0 25px rgb(241, 241, 246), 0 0 5px rgb(207, 207, 212); */
+}
+p{
+    text-align: center;
+}
+.pname{
+    /* display: flex; */
+    grid-area: pname;
+    /* position: absolute; */
+    /* position: relative; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    /* margin-left: 10%; */
+    text-align: center;
+    /* margin-left: 10px; */
+}
+.pscore{
+    grid-area: pscore;
+    font-size: 40px;
+}
+
+.ptime{
+    grid-area: ptime;
+    /* font-size: 10px; */
+}
+
+#div1{
+    font-size: 30px;
+    margin-top: 22%;
+    margin-left: 42.5%;
+}
+#div2{
+    font-size: 15px;
+    margin-top: 26%;
+    margin-left: 58%;
+}
+#div3{
+    font-size: 15px;
+    margin-top: 26%;
+    margin-left: 27%;
+}
+/* #p1{
+    font-size: 22px;
+}
+#p2 ,#p3{
+    font-size: 22.5px;
+} */
+/* .img{
+
+    position: absolute;
+    width: 150px;
+    height: 150px;
+} */

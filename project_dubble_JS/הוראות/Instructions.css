@@ -1,0 +1,98 @@
+
+body{
+    /* background-image:url('../4.jpg');  */
+    width: 100%;
+    margin-top: 3%;
+    background-image:url('../תמונות/רקע.jpg'); 
+}
+
+.divP{
+    width: 45%;
+    height: 920px;
+    margin-left: 25%;
+    background-color: rgba(244, 245, 245, 0.298);
+    display: grid;
+    border: 2px solid rgb(248, 244, 244);
+ 
+    grid-template-areas: ". . . ."
+                         ". img img ."
+                         ". h1 h1 ."
+                         ". p p ."
+                         ". ps1 ps1 ."
+                         ". h2 h2 ."
+                         ". p1 p1 . "
+                         ". ps2 ps2 ."
+                         ". h3 h3 ."
+                         ". p2 p2 ."
+                         " . b b .";
+    grid-template-rows:15px 150px 50px 100px 80px 50px 80px 80px 50px 150px 50px;
+    grid-template-columns:10% 40% 40% 10%;
+
+}
+#img{
+    grid-area: img;
+    width: 180px;
+    margin-left: 34%;
+}
+h1{
+    
+    text-align: center;
+    color: rgb(222, 29, 29);
+    text-shadow: 2px 2px 5px rgb(248, 242, 242);
+}
+#h1{
+    grid-area: h1;
+}
+#h2{
+    grid-area: h2;
+}
+#h3{
+    grid-area: h3;
+}
+p{
+    /* font-family:Verdana, Tahoma, sans-serif;    */
+    
+    font-size: 25px;
+    text-align: center;
+    color: rgba(247, 247, 247, 0.899);
+}
+#p{
+    grid-area: p;
+}
+
+#p1{
+    grid-area: p1;
+}
+#p2{
+    grid-area: p2;
+}
+
+.ps{
+  
+    width: 400px;
+    border-bottom: 3px solid rgb(246, 243, 243);
+   margin-left: 15%;
+}
+#ps{
+    grid-area: ps1;
+}
+#ps1{
+    grid-area: ps2;
+}
+#b{
+    color: rgb(166, 17, 17);
+    grid-area: b;
+    width: 180px;
+    height: 65px;
+   border-radius: 20%;
+   margin-left: 34%;
+   font-size: larger;
+   font-weight: bold; 
+   background-color:rgb(252, 247, 247);
+   border: 2px solid rgb(166, 17, 17);
+}
+#b:hover{
+    color:rgb(9, 10, 11);
+    border: 2px solid rgb(9, 9, 9)
+}
+
