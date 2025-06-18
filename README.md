@@ -1,4 +1,4 @@
-# 🎮 Dobble Game - Memory Matching
+#  Dobble Game - Memory Matching
 
 A fun and interactive memory game built with JavaScript, focusing on clean design, audio experience, and customizable gameplay through image categories.
 
@@ -15,5 +15,5 @@ The Dubble Game is a browser-based memory matching game that challenges players 
 
 ## ✨ Features
 
-- 🎨 Choose from different **image categories**
-- 🔊 Integrated **audio** for better atmosphere
+-  Choose from different **image categories**
+-  Integrated **audio** for better atmosphere
